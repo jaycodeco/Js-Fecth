@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555555;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555555;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px #000000;
+}
+
+#Img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000000;
+    outline: none;
+}
+
+.name {
+    display: flex;
+    font-size: 22px;
+    column-gap: 10px;
+}
+
+.emal {
+    font-size: 18px;
+}
